@@ -1,0 +1,25 @@
+button {
+    height:70px;
+    width:300px;
+    color:rgb(16, 16, 247);
+    background-color: rgb(204, 166, 239);
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: rgb(243, 227, 13);
+}
+
+.hover :hover {
+    background-color: rgb(185, 232, 216);
+    color:rgb(110, 63, 5);
+
+}
+.hover :active {
+    background-color: rgb(35, 14, 154);
+    size-adjust: 100px;
+    color:rgb(234, 131, 131);
+    content: "кнопка нажата!";
+    
+}
