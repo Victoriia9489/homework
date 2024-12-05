@@ -1,0 +1,19 @@
+.main {
+    width: 400wv;
+    height:70vh;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(245, 183, 232);
+    border-radius: 10px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine
+{
+    background-color:rgb(71, 175, 201) ;
+    width: 60%;
+    height:60%;
+    grid-gap: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
